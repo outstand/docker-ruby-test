@@ -22,7 +22,5 @@ RUN apt-get update \
     && cd /tmp/phantomjs \
     && mv bin/phantomjs /usr/local/bin \
     && cd \
-    && apt-get purge --auto-remove -y \
-        curl \
     && apt-get clean \
     && rm -rf /tmp/* /var/lib/apt/lists/*
