@@ -1,4 +1,4 @@
-FROM outstand/ruby-base:2.2.4
+FROM outstand/ruby-base:2.2.5
 MAINTAINER Ryan Schlesinger <ryan@outstand.com>
 
 # PhantomJS cribbed from wernight/phantomjs:2.1.1
