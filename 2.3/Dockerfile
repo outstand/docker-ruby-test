@@ -1,4 +1,4 @@
-FROM outstand/ruby-plus:2.2.5
+FROM outstand/ruby-plus:2.3.1
 MAINTAINER Ryan Schlesinger <ryan@outstand.com>
 
 ENV PHANTOMJS_VERSION 2.1.1
