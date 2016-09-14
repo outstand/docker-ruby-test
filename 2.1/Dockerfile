@@ -9,5 +9,6 @@ RUN apt-get update \
         gstreamer1.0-tools \
         gstreamer1.0-x \
         xvfb \
+        xauth \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
