@@ -3,6 +3,8 @@ MAINTAINER Ryan Schlesinger <ryan@outstand.com>
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
+        mysql-client \
+        redis-tools \
         qt5-default \
         libqt5webkit5-dev \
         gstreamer1.0-plugins-base \
