@@ -4,6 +4,6 @@ MAINTAINER Ryan Schlesinger <ryan@outstand.com>
 RUN apk add --no-cache \
       mysql-client \
       redis \
-      qt5-qtwebkit-dev \
-      xvfb
+      mariadb-dev \
+      tzdata
 
