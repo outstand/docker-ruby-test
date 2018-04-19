@@ -7,8 +7,7 @@ RUN apt-get update \
         redis-tools \
         libicu-dev \
         unzip \
-        # libegl1-mesa-dev \
-        # libgl1-mesa-dri \
+        libnss3-tools \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
