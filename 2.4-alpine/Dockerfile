@@ -1,5 +1,5 @@
-FROM outstand/ruby-plus:2.4.4-alpine
-MAINTAINER Ryan Schlesinger <ryan@outstand.com>
+FROM outstand/ruby-plus:2.4.5-alpine
+LABEL maintainer="Ryan Schlesinger <ryan@outstand.com>"
 
 RUN apk add --no-cache \
       mysql-client \
