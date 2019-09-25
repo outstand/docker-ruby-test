@@ -3,7 +3,7 @@ LABEL maintainer="Ryan Schlesinger <ryan@outstand.com>"
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
-        mysql-client \
+        default-mysql-client \
         redis-tools \
         unzip \
         libnss3-tools \
