@@ -21,7 +21,7 @@ RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key
   && apt-get update -qqy \
   && apt-get -qqy install \
     ${CHROME_VERSION:-google-chrome-stable} \
-  && MAJOR_VERSION=$(apt-cache policy google-chrome-stable | grep Installed: | cut -d : -f 2 | cut -d . -f 1) \
+  && MAJOR_VERSION=$(apt-cache policy ${CHROME_VERSION} | grep Installed: | cut -d : -f 2 | cut -d . -f 1) \
   && CD_VERSION=$(wget -qO- https://chromedriver.storage.googleapis.com/LATEST_RELEASE_${MAJOR_VERSION## }) \
   && echo "Using chromedriver version: "$CD_VERSION \
   && wget --no-verbose -O /tmp/chromedriver_linux64.zip https://chromedriver.storage.googleapis.com/$CD_VERSION/chromedriver_linux64.zip \
