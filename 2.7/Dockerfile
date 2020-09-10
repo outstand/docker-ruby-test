@@ -1,4 +1,4 @@
-FROM outstand/ruby-plus:2.7.0
+FROM outstand/ruby-plus:2.7.1
 LABEL maintainer="Ryan Schlesinger <ryan@outstand.com>"
 
 RUN apt-get update \
