@@ -1,4 +1,4 @@
-FROM outstand/ruby-plus:3.0.0-preview2-alpine
+FROM outstand/ruby-plus:3.0.0-alpine
 MAINTAINER Ryan Schlesinger <ryan@outstand.com>
 
 RUN apk add --no-cache \
