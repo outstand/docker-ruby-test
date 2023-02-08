@@ -1,4 +1,4 @@
-FROM outstand/ruby-plus:3.1.2
+FROM outstand/ruby-plus:3.2.0
 LABEL maintainer="Ryan Schlesinger <ryan@outstand.com>"
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
